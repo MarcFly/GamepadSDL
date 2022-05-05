@@ -1,35 +1,7 @@
-# AudioSDL
-Xth Part to implement Gamepads:
-- Functions
- - SDL_NumJoysticks
- - SDL_IsGameController
- - SDL_GameControllerOpen
- - SDL_GameControllerUpdate
- - SDL_GameControllerGetButton
- - SDL_GameControllerGetAxis
-- Structures
- - SDL_GameController
-- Constants
- - SDL_GameControllerAxis : Enum
- - SDL_GameControllerButtons : Enum
+# SpriteSDL
+3rd part: using textures with SDL.
 
-Previously used from AudioSDL:
-- Functions
-  - Mix_Init
-  - Mix_OpenAudio
-  - Mix_LoadMUS
-  - Mix_LoadWAV
-  - Mix_FreeMusic
-  - Mix_FreeChunk
-  - Mix_PlayMusic
-  - Mix_PlayChannel
-- Structures
-  - Mix_Chunk
-  - Mix_Music
-- Constants
-  - MIX_INIT_OGG
-
-Previously used from SpritesSDL:
+New functions, structures and constants used:
 - Functions
   - IMG_Init
   - IMG_Load
@@ -43,6 +15,22 @@ Previously used from SpritesSDL:
   - SDL_Surface
 - Constants
   - IMG_INIT_PNG
+
+Previously used from InputSDL:
+- Functions
+  - SDL_PollEvent
+  - SDL_PumpEvents
+  - SDL_GetKeyboardState
+- Structures
+  - SDL_Event
+- Constants
+  - SDL_QUIT
+  - SDL_SCANCODE_ESCAPE
+  - SDL_SCANCODE_UP
+  - SDL_SCANCODE_DOWN
+  - SDL_SCANCODE_LEFT
+  - SDL_SCANCODE_RIGHT
+  - SDL_SCANCODE_SPACE
 
 Previously used from HelloSDL:
 - Functions
