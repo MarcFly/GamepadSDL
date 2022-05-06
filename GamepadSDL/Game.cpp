@@ -6,18 +6,6 @@ Game::~Game(){}
 
 bool Game::Init()
 {
-	bool change_for_merge = 1;
-
-	bool change_for_merge_2 = 2;
-	
-	int legs = 2;
-	int arms = 4;
-
-	bool mychange = true;
-
-
-	bool OtherChange = false;
-
 	//Initialize SDL with all subsystems
 	if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
 		SDL_Log("Unable to initialize SDL: %s", SDL_GetError());
