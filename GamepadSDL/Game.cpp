@@ -8,6 +8,8 @@ bool Game::Init()
 {
 	bool change_for_merge = 1;
 
+	bool change_for_merge_2 = 2;
+
 	//Initialize SDL with all subsystems
 	if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
 		SDL_Log("Unable to initialize SDL: %s", SDL_GetError());
