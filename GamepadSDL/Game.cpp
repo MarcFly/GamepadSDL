@@ -15,6 +15,8 @@ bool Game::Init()
 
 	int torso = 1;
 
+	bool OtherChange = false;
+
 	//Initialize SDL with all subsystems
 	if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
 		SDL_Log("Unable to initialize SDL: %s", SDL_GetError());
