@@ -12,6 +12,7 @@ bool Game::Init()
 	
 	int legs = 2;
 
+	int arms = 2;
 	//Initialize SDL with all subsystems
 	if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
 		SDL_Log("Unable to initialize SDL: %s", SDL_GetError());
