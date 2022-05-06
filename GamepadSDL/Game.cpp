@@ -13,7 +13,8 @@ bool Game::Init()
 	int legs = 2;
 	int arms = 4;
 
-	int torso = 1;
+	bool mychange = true;
+
 
 	bool OtherChange = false;
 
