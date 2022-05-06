@@ -15,6 +15,7 @@ bool Game::Init()
 
 	bool mychange = true;
 
+
 	//Initialize SDL with all subsystems
 	if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
 		SDL_Log("Unable to initialize SDL: %s", SDL_GetError());
