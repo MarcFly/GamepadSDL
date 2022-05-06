@@ -11,6 +11,7 @@ bool Game::Init()
 	bool change_for_merge_2 = 2;
 	
 	int legs = 2;
+	int arms = 4;
 
 	int arms = 2;
 	//Initialize SDL with all subsystems
