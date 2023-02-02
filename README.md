@@ -1,4 +1,4 @@
-# AudioSDL
+# GamepadSDL
 Xth Part to implement Gamepads:
 - Functions
  - SDL_NumJoysticks
